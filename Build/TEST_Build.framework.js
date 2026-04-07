@@ -1754,7 +1754,7 @@ function dbg(text) {
       // Firebase is loaded via index.html (see Step 3)
       firebase.initializeApp(config);
       window._firebaseReady = true;
-      window._db = firebase.firestore(); // or firebase.database()
+      window._db = firebase.database(); // or firebase.database()
     }
 
   var JS_Accelerometer = null;
